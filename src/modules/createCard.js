@@ -8,7 +8,7 @@ export const createCard = (imgUrl, name, gender, birth, phone, btnTxt, id, userT
   let pPhone = document.createElement('p');
   let button = document.createElement('button');
 
-  div.classList.add(userType, 'text-white','card', 'm-1', 'col-3', 'p-1');
+  div.classList.add(userType, 'text-white','card', 'm-1', 'col-10','col-md-5', 'col-lg-3', 'p-1');
   img.classList.add('card-img-top');
   divCardBody.classList.add('card-body');
   h5.classList.add('card-title', 'text-primary', 'fs-6');
